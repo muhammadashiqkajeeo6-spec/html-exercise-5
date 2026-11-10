@@ -1,0 +1,93 @@
+/* Base Page Settings & Typography */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fa;
+    color: #333333;
+    line-height: 1.6;
+}
+
+/* 1. Navigation Bar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+}
+
+.nav-links {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Evenly spaces the links across the bar */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3498db;
+    text-decoration: underline; /* Satisfies links requirement inside navigation */
+}
+
+/* 2. Main Content & Blog Layout */
+.content-container {
+    max-width: 800px;
+    margin: 100px auto 40px auto; /* 100px top margin prevents navbar from covering content */
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.blog-header {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Blog Post Block */
+.blog-post {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    margin-bottom: 20px; /* 20px margin between posts */
+}
+
+.post-meta {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+/* 3. Headings Requirements */
+h1 {
+    color: #2c3e50;
+    font-size: 24px;
+}
+
+h2 {
+    color: #2c3e50;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* 4. Global Links Requirements */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
